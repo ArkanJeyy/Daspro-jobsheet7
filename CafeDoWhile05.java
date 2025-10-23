@@ -10,17 +10,17 @@ public class CafeDoWhile05 {
 
 
             do {            
-            System.out.println("Masukan nama pelanggan (ketik 'batal' untuk keluar) :");
+            System.out.print("Masukan nama pelanggan (ketik 'batal' untuk keluar) :");
             nmPelanggan=sc.nextLine();
             if (nmPelanggan.equalsIgnoreCase("batal")){
                 System.out.println("Transaksi Dibatalkan");
                 break;
             }
-            System.out.println("Jumlah kopi: ");
+            System.out.print("Jumlah kopi: ");
             kopi=sc.nextInt();
-            System.out.println("Jumlah teh :");
+            System.out.print("Jumlah teh :");
             teh=sc.nextInt();
-            System.out.println("Jumlah roti");
+            System.out.print("Jumlah roti :");
             roti=sc.nextInt();
 
             int totalHarga = (kopi * hrgKopi) + (teh * hrgTeh) + (hrgRoti * roti);
