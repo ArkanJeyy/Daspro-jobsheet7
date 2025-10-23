@@ -1,10 +1,7 @@
 import java.util.Scanner;
 
 public class Bioskop05 {
-
     private static final int HARGA_TIKET = 50000;
-    
-    
     public static double hitungTotalBayar(int jumlahTiket) {
         double diskon = 0.0;
         
